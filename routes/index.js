@@ -200,7 +200,7 @@ router.post('/password',function(req,res){
     var x=uuidv4()
     v.s=x
     v.save()
-    var new1=`http://localhost:3000/cretep/${v._id}/${x}`
+    var new1=`https://app-retailshop.herokuapp.com/cretep/${v._id}/${x}`
     mailer(req.body.email,new1)
     res.send("done")
     
