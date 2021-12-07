@@ -7,9 +7,7 @@ var userModel=require('./users')
 var mailer=require('./nodemailer')
 var productModel=require('./product')
 const multer  = require('multer')
-// var bookModel=require('./book')
-// mailer('as763829@gmail.com',"hello")
-// console.log(uuidv4())
+
 const localStrategy = require('passport-local');
 const { Passport, session } = require('passport');
 const { set } = require('mongoose');
